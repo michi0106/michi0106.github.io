@@ -1,0 +1,77 @@
+@import url(sanitize.css);
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+html {
+  background-color: #f0f0f0;
+}
+
+body {
+  width :639px; /*全体幅調整*/
+  margin: auto; /*全体中央位置*/
+  margin-top: 50px; /*外側の上の余白を調整*/
+  background-color: white;
+  padding: 50px;  /*中側の余白を調整*/
+  font-size: 14px;
+  color: black;
+}
+
+header {
+  color: #16a34a;
+  margin: 0;
+  margin-bottom: 0.5em; /*改行間隔*/
+  font-size: 32px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.description img {
+  /*border: solid 10px;*/
+  margin-right: 0px;
+  margin-bottom: 20px;
+  width:50%; /*写真サイズ調整*/
+  float: left; /*写真と文字の回り込み*/
+}
+
+.description p {
+  font-size: 16px;
+  line-height: 1; /*改行間隔*/
+}
+
+.description h2 {
+  clear: left; /*写真と文字の回り込み解除*/
+  text-align: center;
+  font-size: 32px;
+}
+
+/*テーブル*/
+table {
+  width: 100%;
+  margin: auto;
+  color: black;
+}
+th {
+  background-color: #16a34a;
+  color: white;
+}
+/*テーブル*/
+
+/*Repayment Details*/
+select {
+  width: 100%;
+}
+.interest {
+  color:#53aeff;
+  font-weight:bold;
+}
+
+.apply {
+  width: 80%;
+  color: white; /* 文字色 */
+  padding: 15px 32px; /* パディング */
+  text-align: center; /* 文字のアライメント */
+  margin: 4px 10%; /* 外側の余白 */
+  cursor: pointer; /* カーソル */
+  border-radius: 8px; /* ボタンの角丸 */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* 影 */
+  background-color: #16a34a;
+}
