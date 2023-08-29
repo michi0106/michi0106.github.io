@@ -32,6 +32,7 @@ body {
 
 .facebook {
   width: 80%;
+  height: 80px;
   color: white; /* 文字色 */
   padding: 15px 32px; /* パディング */
   text-align: center; /* 文字のアライメント */
@@ -44,6 +45,7 @@ body {
 
 .Google {
   width: 80%;
+  height: 80px;
   color: #000000; /* 文字色 */
   padding: 15px 32px; /* パディング */
   text-align: center; /* 文字のアライメント */
@@ -56,6 +58,7 @@ body {
 
 .Apple {
   width: 80%;
+  height: 80px;
   color: white; /* 文字色 */
   padding: 15px 32px; /* パディング */
   text-align: center; /* 文字のアライメント */
@@ -68,6 +71,7 @@ body {
 
 .NoSNS {
   width: 80%;
+  height: 80px;
   background-color: white;
   color: #000000; /* 文字色 */
   padding: 15px 32px; /* パディング */
