@@ -4,7 +4,6 @@
 body {
   /*background-color: #f0f0f0;*/
   background-color: white;
-  padding: 100px;
   font-size: 14px;
   color: #666;
 }
@@ -141,7 +140,8 @@ span {
   padding-bottom: 40px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  width: 700px;
+  /*width: 700px;*/
+  width: 100%; /*全体幅の調整*/
   margin: 0 auto;}
 
 /*タブのスタイル*/
