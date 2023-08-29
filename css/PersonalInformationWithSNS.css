@@ -121,9 +121,14 @@ input[name="tab_item"] {
   padding-left: 70px;
 }
 
-input.form-control{
+label.form-label {
+  font-size: 24px;
+}
+
+.form-control{
   width: 90%;
   height:30px;
+  font-size: 20px;
 }
 
 span {
