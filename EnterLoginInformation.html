@@ -1,41 +1,80 @@
-<!DOCTYPE html>
-<html lang="UTF-8">
-    <head>
-         <meta charset="UTF-8">
-         <meta name="viewpoint" content="width=device-width">
-        <title>Enter Login Information</title>
+@import url(sanitize.css);
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
-        <link rel="stylesheet" href="css/EnterLoginInformation.css">
-    </head>
+body {
+  width: 639px;
+  margin: auto;
+  margin-top: 100px;
+}
 
-    <body>
-        <div class="background">
-            <img src="img/Logo.png">
-            <p class="top">GOOD MORNING</p>
-        </div>
+.background {
+  position: relative;
+  width: 100%;
+  height: 600px;
+	background-image: url(../img/Background.jpg);
+  background-size:  auto;
+  background-position: center;
+	background-repeat: no-repeat;
+  border: 1px solid #333;
+}
 
-        <div class="note">
-            <h1>Enter login details</h1>
-        </div>
+.background img {
+  width: 20%;
+  margin: 50px 20px 100px 250px;
+}
 
-        <div class="container">
-            <form action="" method="post">
-                <div class="mb-3">
-                    <label for="username" class="form-label">User</label><br />
-                    <input type="text" class="form-control" name="username" id="username" placeholder="Jaccs" style="height: 40px;"><br /><br />
+.background p {
+  font-size: 30px;
+  margin: -120px -10px 170px 195px;
+}
 
-                    <label for="password" class="form-label">Password</label><br />
-                    <input type="password" class="form-control" name="password" id="password" style="height: 40px;">
-                </div>
-            </form>
-        </div>
+.note {
+  width: 639px;
+  margin: auto;
+  color:#16a34a;
+  /*padding-left: 75px;*/
+  border-radius: 8px; /*ボタンの角を丸くする*/
+  background-color: rgb(255, 255, 240);
+}
 
-        <div class="button_sns">
-            <br></br>
-            <button onclick="location.href='./Signing.html'" class="SignUp">Sign Up</button>
-        </div>
+.container { /*入力フォーム項目の位置調整*/
+  /*padding-left: 70px;*/
 
-        <div class="ConfirmAccount">
-            <p class="Forgot">Forgot?</p>
-        </div>
-    </body>        
+  font-size: 24px;
+}
+
+input.form-control{
+  /*width: 90%;*/
+  width: 100%;
+  height:30px;
+  font-size: 20px;
+}
+
+.note p {
+  font-size:large;
+  line-height:10px; /*改行間隔*/
+  color: black;
+}
+
+.SignUp {
+  width: 80%;
+  color: white; /* 文字色 */
+  padding: 15px 32px; /* パディング */
+  text-align: center; /* 文字のアライメント */
+  margin: 4px 10%; /* 外側の余白 */
+  cursor: pointer; /* カーソル */
+  border-radius: 8px; /* ボタンの角丸 */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* 影 */
+  background-color: #16a34a;
+}
+
+ .ConfirmAccount {
+  text-align: center;
+  font-size:large;
+  line-height:10px; /*改行間隔*/
+  color: black;
+}
+
+.Forgot {
+  color: #16A34A;
+}
