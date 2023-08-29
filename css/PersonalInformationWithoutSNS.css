@@ -29,6 +29,7 @@ h1 {
 p {
   color: #434862;
   text-align: center;
+  font-size: 22px;
 }
 
 maxamount_content h1{
@@ -78,7 +79,7 @@ img {
   border-bottom: 3px solid #16a34a;
   background-color: #d9d9d9;
   line-height: 50px;
-  font-size: 16px;
+  font-size: 22px;
   text-align: center;
   color: #565656;
   display: block;
@@ -117,13 +118,14 @@ input[name="tab_item"] {
   color: black;
 }
 
-.container { /*入力フォーム項目の位置調整*/
-  padding-left: 70px;
+label.form-label {
+  font-size: 24px;
 }
 
-input.form-control{
-  width: 90%;
+.form-control{
+  width: 100%;
   height:30px;
+  font-size: 20px;
 }
 
 span {
