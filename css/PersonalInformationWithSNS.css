@@ -12,7 +12,7 @@ header {
   color: #16a34a;
   margin: 0;
   margin-bottom: 0.5em; /*改行間隔*/
-  font-size: 32px;
+  font-size: 64px;
   font-weight: normal;
   text-align: center;
 }
@@ -21,7 +21,7 @@ h1 {
   color: #044A73;
   margin: 0;
   margin-bottom: 0.5em; /*改行間隔*/
-  font-size: 24px;
+  font-size: 32px;
   font-weight: normal;
   text-align: center;
 }
@@ -76,19 +76,19 @@ img {
 /*タブのスタイル*/
 .tab_item {
   width: calc(100%/3);
-  height: 50px;
+  height: 100px;
   border-bottom: 3px solid #16a34a;
   background-color: #d9d9d9;
-  line-height: 50px;
-  font-size: 22px;
+  line-height: 100px;
+  font-size: 48px;
   text-align: center;
   color: #565656;
   display: block;
   float: left;
-  text-align: center;
   font-weight: bold;
   transition: all 0.2s ease;
 }
+
 .tab_item:hover {
   opacity: 0.75;
 }
@@ -140,8 +140,7 @@ span {
   padding-bottom: 40px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  /*width: 700px;*/
-  width: 100%; /*全体幅の調整*/
+  width: 700px;
   margin: 0 auto;}
 
 /*タブのスタイル*/
@@ -151,7 +150,7 @@ span {
   border-bottom: 3px solid #16a34a;
   background-color: #d9d9d9;
   line-height: 50px;
-  font-size: 16px;
+  font-size: 32px;
   text-align: center;
   color: #565656;
   display: block;
