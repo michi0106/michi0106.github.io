@@ -21,7 +21,7 @@ h1 {
   color: #044A73;
   margin: 0;
   margin-bottom: 0.5em; /*改行間隔*/
-  font-size: 32px;
+  font-size: 40px;
   font-weight: normal;
   text-align: center;
 }
@@ -29,7 +29,7 @@ h1 {
 p {
   color: #434862;
   text-align: center;
-  font-size: 22px;
+  font-size: 32px;
 }
 
 maxamount_content h1{
@@ -53,6 +53,7 @@ img {
 
 .CaptureNow {
   width: 80%;
+  height: 100px;
   color: white; /* 文字色 */
   padding: 15px 32px; /* パディング */
   text-align: center; /* 文字のアライメント */
@@ -61,6 +62,7 @@ img {
   border-radius: 8px; /* ボタンの角丸 */
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* 影 */
   background-color: #16a34a;
+  font-size: 32px;
 }
 
 /*1. タブ切り替え全体のスタイル*/
