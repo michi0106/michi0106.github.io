@@ -146,11 +146,11 @@ span {
 /*タブのスタイル*/
 .nexttab_item {
   width: calc(100%/3);
-  height: 50px;
+  height: 80px;
   border-bottom: 3px solid #16a34a;
   background-color: #d9d9d9;
-  line-height: 50px;
-  font-size: 32px;
+  line-height: 80px;
+  font-size: 36px;
   text-align: center;
   color: #565656;
   display: block;
