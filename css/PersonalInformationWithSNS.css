@@ -76,17 +76,18 @@ img {
 /*タブのスタイル*/
 .tab_item {
   width: calc(100%/3);
-  height: 80px;
+  height: 100%;
   border-bottom: 3px solid #16a34a;
   background-color: #d9d9d9;
   line-height: 80px;
-  font-size: 40px;
+  font-size: 48px;
   text-align: center;
   color: #565656;
   display: block;
   float: left;
   font-weight: bold;
   transition: all 0.2s ease;
+  word-break: break-all; 
 }
 
 .tab_item:hover {
