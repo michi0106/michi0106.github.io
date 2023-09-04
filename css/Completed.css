@@ -40,10 +40,11 @@ body {
   padding: 10px;
   border-radius: 8px; /*ボタンの角を丸くする*/
   background-color: rgb(255, 255, 240);
+  font-size: 32px;
 }
 
 .note p {
-  font-size:large;
+  font-size:32px;
   line-height:10px; /*改行間隔*/
   color: black;
 }
