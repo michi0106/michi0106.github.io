@@ -240,14 +240,24 @@ table {
 th {
   background-color: #16a34a;
   color: white;
+  height: 50px;
+  font-size: 30px;
 }
 /*テーブル*/
 
 /*Repayment Details*/
 select {
   width: 100%;
+  height: 40px;
+  font-size: 20px;
 }
 .interest {
   color:#53aeff;
   font-weight:bold;
+  height: 40px;
+  font-size: 20px;
+}
+
+td {
+  font-size: 20px;
 }
