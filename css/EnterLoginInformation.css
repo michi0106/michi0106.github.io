@@ -48,6 +48,10 @@ body {
   font-size: 48px;
 }
 
+h1 {
+  font-size: 64px;
+}
+
 .note p {
   font-size:large;
   line-height:10px; /*改行間隔*/
