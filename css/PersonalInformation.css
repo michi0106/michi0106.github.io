@@ -37,7 +37,8 @@ maxamount_content h1{
 }
 
 img {
-  width:100%; /*1. 写真サイズ調整*/
+  width:100%; /*写真サイズ調整*/
+  padding-bottom: 30px; /*写真の下に余白*/
 }
 
 .Next {
