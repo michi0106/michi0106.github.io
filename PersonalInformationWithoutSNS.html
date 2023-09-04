@@ -5,14 +5,14 @@
          <meta name="viewpoint" content="width=device-width">
         <title>personal details</title>
 
-        <link rel="stylesheet" href="css/PersonalInformationWithoutSNS.css">
+        <link rel="stylesheet" href="css/PersonalInformation.css">
     </head>
 
     <body>
         <div class="tabs">
             <header>Application Information</header>
             <input id="personal" type="radio" name="tab_item" checked>
-            <label class="tab_item" for="personal">Personal Information</label>
+            <label class="tab_item" for="personal">Personal Data</label>
             
             <input id="data" type="radio" name="tab_item">
             <label class="tab_item" for="data">Take Photo</label>
@@ -22,27 +22,27 @@
 
             <!--Personal Information-->
             <div class="tab_content" id="personal_content">
-                <p>Please fill out your information.</p>
+                <h1>Please fill out your information.</h1>
                 <div class="container">
                     <form action="" method="post">
                         <div class="mb-3">
                             <label for="firstname" class="form-label">FirstName</label><br />
-                            <input type="text" class="form-control" name="firstname" id="firstname" placeholder="Hermione" style="height: 40px;"><br /><br />
+                            <input type="text" class="form-control" name="firstname" id="firstname" placeholder="Hermione"><br /><br />
         
                             <label for="lastname" class="form-label">LastName</label><br />
-                            <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Granger" style="height: 40px;"><br /><br />
+                            <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Granger"><br /><br />
 
                             <label for="dateofbirth" class="form-label">Date of Birth</label><br />
-                            <input type="text" class="form-control" name="dateofbirth" id="dateofbirth" placeholder="15-04-1990" style="height: 40px;"><br /><br />
+                            <input type="text" class="form-control" name="dateofbirth" id="dateofbirth" placeholder="15-04-1990"><br /><br />
 
                             <label for="contact" class="form-label">Contact Phone Number</label><br />
-                            <input type="text" class="form-control" name="contact" id="contact" placeholder="+xx xxxx xxxx" style="height: 40px;"><br /><br />
+                            <input type="text" class="form-control" name="contact" id="contact" placeholder="+65 0000 1111"><br /><br />
 
                             <label for="e-mail" class="form-label">Contact Phone Number</label><br />
-                            <input type="text" class="form-control" name="e-mail" id="e-mail" placeholder="jaccs@jaccs.com" style="height: 40px;"><br /><br />
+                            <input type="text" class="form-control" name="e-mail" id="e-mail" placeholder="jaccs@jaccs.com"><br /><br />
 
                             <label for="monthlyincome" class="form-label">Monthly Income (USD)</label><br />
-                            <input type="text" class="form-control" name="monthlyincome" id="monthlyincome" placeholder="3,000" style="height: 40px;"><br /><br />
+                            <input type="text" class="form-control" name="monthlyincome" id="monthlyincome" placeholder="3,000"><br /><br />
                         </div>
                     </form>
                 </div>        
@@ -118,7 +118,7 @@
                 <h1>How much would you like to borrow?</h1>
 
                 <input type="range" id="example" min="5000" max="100000" step="1000">
-                 <p><font size="6">Total Loan Amount</font></p>
+                 <p><font size="8">Total Loan Amount</font></p>
                  <p><span id="current-value"></span><font size="6"> USD</font></p>
                 </input>
                 <!--Range Slider-->
