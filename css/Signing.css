@@ -24,7 +24,7 @@ body {
 }
 
 .background p {
-  font-size: 30px;
+  font-size: 32px;
   margin: -120px -10px 170px 195px;
 }
 
@@ -37,8 +37,12 @@ body {
   background-color: rgb(255, 255, 240);
 }
 
+.note h1 {
+  font-size: 48px;
+}
+
 .note p {
-  font-size:large;
+  font-size:32px;
   line-height:10px; /*改行間隔*/
   color: black;
 }
