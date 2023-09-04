@@ -197,16 +197,16 @@ input[type="range"] {
   appearance: none;
   cursor: pointer;
   outline: none;
-  background: #8acdff;
-  height: 14px;
+  background: #16a34a;
+  height: 50px;
   width: 100%;
   border-radius: 10px;
   border: solid 3px #dfffe7; 
   &::-webkit-slider-thumb {
     -webkit-appearance: none; 
-    background: #53aeff;
-    width: 24px;
-    height: 24px;
+    background: whitesmoke;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15);
   }
