@@ -191,6 +191,38 @@ input[name="nexttab_item"] {
   color: black;
 }
 
+/*カメラ起動*/
+dl {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+dd div {
+  margin: 0 auto 15px;
+  background: #16a34a;
+  border-radius: 10px;
+  width: 100%;
+}
+
+dd div label {
+  padding: 15px;
+  display: block;
+}
+
+dd div span {
+  margin-bottom: 5px;
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  line-height: 1.4;
+  display: block;
+}
+/*カメラ起動*/
+
 /*レンジスライダー*/
 input[type="range"] {
   -webkit-appearance: none;
