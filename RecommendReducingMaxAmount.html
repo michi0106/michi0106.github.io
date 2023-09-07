@@ -1,48 +1,91 @@
-<!DOCTYPE html>
-<html lang="UTF-8">
-    <head>
-         <meta charset="UTF-8">
-         <meta name="viewpoint" content="width=device-width">
-        <title>recommend reducing max amount</title>
+@import url(sanitize.css);
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
-        <link rel="stylesheet" href="css/RecommendReducingMaxAmount.css">
-    </head>
+html {
+  background-color: white;
+}
 
-    <body>
-        <header>Application Information</header>
-        <div class="description">
-            <img src="img/Sad-Man.png">
-            <br></br>
-            <p>Looks like we are <span><font color="red">unable</font></span> to</p>
-            <p>approve your application</p>
+body {
+  width :1000px; /*全体幅調整*/
+  margin: auto; /*全体中央位置*/
+  margin-top: 50px; /*外側の上の余白を調整*/
+  background-color: white;
+  padding: 50px;  /*中側の余白を調整*/  
+  font-size: 14px;
+  color: black;
+}
 
-            <b>BUT.. HOW ABOUT A</b><br />
-            <b><font color="red">LITTLE LESS?</font></b>
+header {
+  color: #16a34a;
+  margin: 0;
+  margin-bottom: 0.5em; /*改行間隔*/
+  font-size: 64px;
+  font-weight: normal;
+  text-align: center;
+}
 
-            <h2>How about <span><font color="red">9,000 USD?</font></span></h2>
+.description img {
+  /*border: solid 10px;*/
+  margin-right: 0px;
+  margin-bottom: 20px;
+  width:50%; /*写真サイズ調整*/
+  float: left; /*写真と文字の回り込み*/
+}
 
-            <table border="1">
-                <tr>
-                  <th colspan="2">Repayment Datails</th> <!--セル結合-->
-                </tr>
-                <tr>
-                  <td>Interest Rate</td>
-                  <td class="interest">0.66%</td>
-                </tr>
-                <tr>
-                  <td>Repayment Period/td>
-                  <td class="Repayment Period">24 month</td>
-                </tr>
-                <tr>
-                  <td>Monthly Repayment</td>
-                  <td class="Monthly Repayment">500 USD</td>
-                </tr>
-            </table>
+.description p {
+  font-size: 32px;
+  line-height: 1; /*改行間隔*/
+}
 
-            <br></br>
-            <button onclick="location.href='./Completed.html'" class="apply">OK with this amount</button>
-            <br></br>
-            <button onclick="location.href='./Completed.html'" class="apply">No, proceed with desired amount</button>
-        </div>
-    </body>
-</html>
+.description b {
+  font-size: 32px; 
+}
+
+.description h2 {
+  clear: left; /*写真と文字の回り込み解除*/
+  text-align: center;
+  font-size: 48px;
+}
+
+/*テーブル*/
+table {
+  width: 100%;
+  margin: auto;
+  color: black;
+}
+th {
+  background-color: #16a34a;
+  color: white;
+  height: 60px;
+  font-size: 64px;
+}
+/*テーブル*/
+
+/*Repayment Details*/
+select {
+  width: 100%;
+  height: 50px;
+  font-size: 48px;
+}
+.interest {
+  color:#53aeff;
+  font-weight:bold;
+  height: 50px;
+  font-size: 48px;
+}
+td {
+  font-size: 48px;
+}
+.apply {
+  width: 80%;
+  height: 100px;
+  color: white; /* 文字色 */
+  padding: 15px 32px; /* パディング */
+  text-align: center; /* 文字のアライメント */
+  margin: 4px 10%; /* 外側の余白 */
+  cursor: pointer; /* カーソル */
+  border-radius: 8px; /* ボタンの角丸 */
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* 影 */
+  background-color: #16a34a;
+  font-size: 44px;
+}
