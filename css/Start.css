@@ -1,12 +1,15 @@
 @import url(sanitize.css);
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
+body{
+  text-align: center;
+}
+
 .Password {
   font-size: 48px;
   width: 80%;
   height: 100px;
-  margin-top: 250px;
-  margin-left: 120px;
+  margin-top: 200px;
   cursor: pointer; /* カーソル */
   border-radius: 8px; /* ボタンの角丸 */
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* 影 */
