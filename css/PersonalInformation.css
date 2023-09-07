@@ -63,7 +63,7 @@ img {
   border-radius: 8px; /* ボタンの角丸 */
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* 影 */
   background-color: #16a34a;
-  font-size: 32px;
+  font-size: 48px;
 }
 
 /*1. タブ切り替え全体のスタイル*/
