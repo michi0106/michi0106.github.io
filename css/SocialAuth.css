@@ -30,6 +30,10 @@ body {
   margin: -170px -10px 170px 273px;
 }
 
+.form-check p {
+  font-size: 24px;
+}
+
 .facebook {
   width: 80%;
   height: 100px;
