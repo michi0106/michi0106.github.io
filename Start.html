@@ -6,8 +6,13 @@
         <title>Login</title>
         <script type="text/javascript"> 
             function gate() {
-            var UserInput = prompt("Enter Password:","");
-            location.href = UserInput + ".html";
+                UserInput = prompt("Please Enter Password:","");
+                if ( UserInput == "Index" ){
+                    location.href = UserInput + ".html";
+                }
+                else{
+                   alert( "The password is not correct" );
+                }
             }
         </script>
         <link rel="stylesheet" href="css/Index.css">
