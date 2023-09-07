@@ -38,6 +38,7 @@ maxamount_content h1{
 
 img {
   width:100%; /*写真サイズ調整*/
+  height: 800px;
   padding-bottom: 30px; /*写真の下に余白*/
 }
 
