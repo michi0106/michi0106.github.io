@@ -1,19 +1,30 @@
 @import url(sanitize.css);
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
-body{
-  text-align: center;
-  height: 800px;
+html {
+  margin-top: 200px;
 }
 
-.Password {
-  font: bold;
-  font-size: 64px;
-  color: #1877F2;
-  width: 80%;
+.button {
+  margin: auto;
+  position: relative;
   height: 200px;
-  margin-top: 300px;
-  cursor: pointer; /* カーソル */
-  border-radius: 8px; /* ボタンの角丸 */
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* 影 */
+  background: #EEE;
+  border: 1px solid #999;
+}
+
+input {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  display: block;
+  padding: 10px;
+  background: #b2e5dd;
+  border: 1px solid #333;
+  font-size: 32px;
+  color: #333;
+  width: 500px;
+  height: 100px;
+  text-align: center;
 }
