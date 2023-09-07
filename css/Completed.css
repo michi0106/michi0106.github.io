@@ -2,39 +2,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
 body {
-  width: 639px;
+  width: 800px;
   margin: auto;
+  margin-top: 100px;
 }
 
 .background {
   position: relative;
   width: 100%;
-  height: 600px;
+  height: 800px;
 	background-image: url(../img/Background.jpg);
   background-size:  auto;
   background-position: center;
 	background-repeat: no-repeat;
-  border: 1px solid #333;
-  /*padding: 100px;*/
-  /*	background-image: url(../img/Logo.png), url(../img/Background.jpg);
-  background-size: 200px 200px, auto;
-  background-position: top, center;
-	background-repeat: no-repeat, no-repeat;
-  padding: 100px;*/
 }
 
 .background img {
-  width: 20%;
-  margin: 50px 20px 100px 250px;
+  width: 30%;
+  margin: 20px 20px 100px 270px;
 }
 
 .background p {
   font-size: 30px;
-  margin: -120px -10px 170px 195px;
+  margin: -170px -10px 170px 273px;
 }
 
 .note {
-  width: 639px;
+  width: 800px;
   margin: auto;
   color: rgb(240, 77, 77);
   padding: 10px;
@@ -59,7 +53,7 @@ body {
   border-radius: 8px; /* ボタンの角丸 */
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* 影 */
   background-color: #16a34a;
-  font-size: 32px;
+  font-size: 48px;
 }
 
 .LogIn {
