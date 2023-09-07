@@ -32,7 +32,7 @@ body {
 
 .facebook {
   width: 80%;
-  height: 80px;
+  height: 100px;
   color: white; /* 文字色 */
   padding: 15px 32px; /* パディング */
   text-align: center; /* 文字のアライメント */
@@ -41,12 +41,12 @@ body {
   border-radius: 8px; /* ボタンの角丸 */
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* 影 */
   background: #1877F2 url(../img/Facebook.png) no-repeat 20px center / 30px auto;
-  font-size: 28px;
+  font-size: 40px;
 }
 
 .Google {
   width: 80%;
-  height: 80px;
+  height: 100px;
   color: #000000; /* 文字色 */
   padding: 15px 32px; /* パディング */
   text-align: center; /* 文字のアライメント */
@@ -55,12 +55,12 @@ body {
   border-radius: 8px; /* ボタンの角丸 */
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* 影 */
   background: white  url(../img/Google.png) no-repeat 20px center / 30px auto;
-  font-size: 28px;
+  font-size: 40px;
 }
 
 .Apple {
   width: 80%;
-  height: 80px;
+  height: 100px;
   color: white; /* 文字色 */
   padding: 15px 32px; /* パディング */
   text-align: center; /* 文字のアライメント */
@@ -69,12 +69,12 @@ body {
   border-radius: 8px; /* ボタンの角丸 */
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* 影 */
   background: black  url(../img/Apple.png) no-repeat 20px center / 30px auto;
-  font-size: 28px;
+  font-size: 40px;
 }
 
 .NoSNS {
   width: 80%;
-  height: 80px;
+  height: 100px;
   background-color: white;
   color: #000000; /* 文字色 */
   padding: 15px 32px; /* パディング */
@@ -83,11 +83,11 @@ body {
   cursor: pointer; /* カーソル */
   border-radius: 8px; /* ボタンの角丸 */
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* 影 */
-  font-size: 28px;
+  font-size: 40px;
 }
 
 .form-check {
-  padding-left: 95px; /*チェックボックスの位置を調整*/
+  padding-left: 120px; /*チェックボックスの位置を調整*/
 }
 
 span {
