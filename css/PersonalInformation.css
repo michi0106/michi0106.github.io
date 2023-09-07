@@ -282,7 +282,7 @@ th {
 /*Repayment Details*/
 select {
   width: 100%;
-  height: 50px;
+  height: 64px;
   font-size: 48px;
 }
 .interest {
