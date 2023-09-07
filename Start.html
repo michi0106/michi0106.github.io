@@ -1,8 +1,18 @@
-<input type="button" value="Enter password to access url" onclick="gate();">
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/Start.css">
+        <meta charset="utf-8">
+        <title>JavaScriptによる閲覧制限</title>
+        <script type="text/javascript">
+            function gate() {
+            var UserInput = prompt("パスワードを入力して下さい:","");
+            location.href = UserInput + ".html";
+            }
+        </script>
+    </head>
 
-<script type="text/javascript">
-   function gate() {
-      var UserInput = prompt("Please enter password to access url:","");
-      location.href = UserInput + ".html";
-   }
-</script>
+    <body>
+            <input type="button" class="Password" value="Enter Password To Access URL" onclick="gate();">
+    </body>
+</html>
